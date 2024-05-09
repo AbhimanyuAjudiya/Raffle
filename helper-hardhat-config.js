@@ -15,7 +15,7 @@ const networkConfig = {
     },
     11155111: {
         name: "sepolia",
-        subscriptionId: "6926",
+        subscriptionId: "2635",
         gasLane: "0x474e34a077df58807dbe9c96d3c009b23b3c6d0cce433e59bbf5b34f823bc56c", // 30 gwei
         keepersUpdateInterval: "30",
         raffleEntranceFee: ethers.utils.parseEther("0.01"), // 0.01 ETH
@@ -30,8 +30,8 @@ const networkConfig = {
 
 const developmentChains = ["hardhat", "localhost"]
 const VERIFICATION_BLOCK_CONFIRMATIONS = 6
-const frontEndContractsFile = "../nextjs-smartcontract-lottery-fcc/constants/contractAddresses.json"
-const frontEndAbiFile = "../nextjs-smartcontract-lottery-fcc/constants/abi.json"
+const frontEndContractsFile = "../front-end/constants/contractAddresses.json"
+const frontEndAbiFile = "../front-end/constants/abi.json"
 
 module.exports = {
     networkConfig,
